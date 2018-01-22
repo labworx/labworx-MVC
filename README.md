@@ -8,15 +8,13 @@ LabworxMVC provides a minimal php setup for a fast and clean starting point. Spe
 ## Whats' included
 LabworxMVC bundles some awesome tools, frameworks and extensions to get you up and running fast.
 
-### TWIG - Template Engine
-
+- TWIG - Template Engine
 The flexible, fast, and secure template engine for PHP.
-- See: (https://milligram.github.io/#getting-started)
+See: (https://milligram.github.io/#getting-started)
 
-### Illuminate Database Component
-
+- Illuminate Database Component
 A full database toolkit for PHP and also the database layer of Laravel
-- See: (https://milligram.github.io/#getting-started)
+(https://milligram.github.io/#getting-started)
 
 ## License
 
