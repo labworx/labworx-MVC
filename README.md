@@ -1,7 +1,5 @@
 # labworxMVC
 
-## Why it's awesome
-
 LabworxMVC provides a minimal php setup for a fast and clean starting point. Specially designed for a small websites, a fast deployment and a high productivity. Hope you enjoy!
 
 
