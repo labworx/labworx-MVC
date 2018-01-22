@@ -1,0 +1,24 @@
+{
+    "name": "labworxMVC",
+    "description": "a basic php MVC system",
+    "keywords": ["mvc", "starter"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Markus Deuerlein",
+            "email": "deuerlein@entdia.de",
+            "role": "Creator / Main Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/database": "4.2.*",
+        "twig/twig":"~1.0"
+    },
+    "autoload": {
+	    "classmap": [
+		    "app/models"
+	    ]
+    }
+    
+}
