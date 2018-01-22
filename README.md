@@ -11,12 +11,12 @@ LabworxMVC bundles some awesome tools, frameworks and extensions to get you up a
 ### TWIG - Template Engine
 
 The flexible, fast, and secure template engine for PHP.
-See: (https://milligram.github.io/#getting-started)
+- See: (https://milligram.github.io/#getting-started)
 
 ### Illuminate Database Component
 
 A full database toolkit for PHP and also the database layer of Laravel
-See: (https://milligram.github.io/#getting-started)
+- See: (https://milligram.github.io/#getting-started)
 
 ## License
 
