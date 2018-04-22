@@ -10,10 +10,11 @@
 	class LabworxMVC {
 		
 		protected $controller = 'pages';
-		protected $method = 'home';
+		protected $method = 'index';
 		protected $params = [];
 		protected $twigloader = '';
 		protected $twig = '';
+        protected $viewData = array();
 
 		public function __construct() 
 		{

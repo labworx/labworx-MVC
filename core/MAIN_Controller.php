@@ -2,10 +2,11 @@
 	
 	class MAIN_Controller 
 	{
-
 		public function __construct() {
 			$this->twigloader = new Twig_Loader_Filesystem('app/views');
 			$this->twig = new Twig_Environment($this->twigloader,array('autoescape' => false));
+            $this->viewData['site_url']='http://mvc.local';
+			$this->viewData['assets_folder']= '/public/assets';
 		}
 
 		public function model($model) 

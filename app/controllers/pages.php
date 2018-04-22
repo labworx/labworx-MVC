@@ -3,24 +3,17 @@
 
 	class Pages extends MAIN_Controller {
 
-		public function home() 
+		public function index() 
 		{
-
-			$data['site_url']= 'http://localhost';
-			$data['assets_folder']= '/public/assets';
-
-			$data['pagetitle']= 'Home';
-			echo $this->twig->render('pages/home.html',$data);
+			$this->viewData['pagetitle']= 'Home';
+			echo $this->twig->render('pages/home.html',$this->viewData);
 		}
 
 		public function about() 
 		{
 
-			$data['site_url']= 'http://localhost';
-			$data['assets_folder']= '/public/assets';
-
 			$data['pagetitle']= 'about';
-			echo $this->twig->render('pages/about.html',$data);
+			echo $this->twig->render('pages/about.html',$this->viewData);
 		}
 
 
